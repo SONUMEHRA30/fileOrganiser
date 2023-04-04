@@ -1,0 +1,228 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>How it works ?</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="project/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="project/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="project/favicon/favicon-16x16.png">
+        <link rel="manifest" href="project/favicon/site.webmanifest">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+    
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet"> -->
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/fontawesome.min.css"> -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"> -->
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    </head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="project/logo n.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="howitworks.html">HOW IT WORKS ?</a></li>
+                    <li><a href="Blogging.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                   
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+     <h1>How it Works ?</h1>
+    </section>
+
+  
+
+    <!-- --------------------------Courses--------------------- -->
+    <section class="course">
+        <h1>Funtionalities We Offer</h1>
+        <p>To provide an efficient way to maintain your files.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Help</h3> 
+                <p>
+                    Help Funtion tells the user about the steps of implementation of organize and tree function.
+    
+                </p>
+             </div>
+             <div class="course-col">
+                <h3>Organize</h3> 
+                <p>
+                    organize Function done the job for user to organize the unsorted files in a sorted manner in the directory of your system.
+                </p>
+             </div>
+             <div class="course-col">
+                <h3>Tree</h3> 
+                <p>
+                    Tree Function done the job for user to print the sorted files in a tree structure format for better understaning to the location of the files in each folder.
+                </p>
+             </div>
+        </div>
+    </section>
+ 
+  <!-- ------------------facilities----------------------- -->
+    
+
+    <section class="facilities">
+        <h1>How to used a above Funtionalities</h1>
+        <p>This shows a required command for using a given three functionality and how it's show.</p>
+    
+        <div class="row">
+            <div class="facilities-col">
+                <img src="project/HELP 2.png" alt="">
+                <h3>Help Command</h3>
+                <p>This is the first and initial command tells the user about the steps of implementation of organize and tree function. The format of firing a command in cmd i.e " node FO.js _help_ " </p>
+            </div>
+            <div class="facilities-col">
+                <img src="project/ORGANIZE NEW.png" alt="">
+                <h3>Organize Command</h3>
+                <p> Organize Function done the job for user to organize the unsorted files in a sorted manner in the directory of your system. For using this function User needs to fire a command i.e " node FO.js organize _directory name_ ". </p>
+            </div>
+            <div class="facilities-col">
+                <img src="project/TREE.png" alt="">
+                <h3>Tree command</h3>
+                <p>Tree Function done the job for user to print the sorted files in a tree structure format for better understaning to the location of the files in each folder. for using this tree function user needs to fire a command in cmd with thire directory name in which user wants the tree structure i.e "node FO.js tree _directory name_".</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------------------------------Implementation-------------------------------------- -->
+
+
+    <!-- (emoji add in html &# for decimal and &#x for hexadecimal) -->
+
+
+    <section class="implementation">
+        <h2>HOW TO USE FSO ?</h2>
+        <div class="implementation-col">
+            <p>Generally in our computer system a large number of data files are present. So the storage and managment are the very neccesary things. In solution over that the FSO tool are very useful in this terms. By using FSO tool we can organized the all unsorted files in our system. Let us know what are the exact logic we are using for the Organizing method. In this file Organizing method the files are sort and move in the respective folder where the perticular file belongs. But this file sorting are done according to thier file extension. When we fire the neccesarry command for Organizing purpose the all files are sccaned by theire extension and after scanning the decision is made that is in which folder the file belongs, after making the decision the file are move in thire respective folder.</p>
+
+            <h3>Step wise instruction for installing and handelling the FSO tool.</h3>
+           
+            
+                <ol>
+                <h3> STEP 1 (Installation)</h3>
+                <li>Firstly you need to install a <a href="https://nodejs.org/en/" target="_blank"> Node js</a> software for backend purpose. <br> (&#x1F6D1 Note: please download appropriate version of node.js according to your system.)</li>
+                <li>After successfully installation of node.js, We need to install our <a href="index.html" target="_blank"> FSO tool(File System Organizer tool)</a>.</li>
+                <li0>When installation of FSO tool is completed successfully, After that we need to open our FSO File containing folder in cmd(command prompt) of your computer sytem. </li>
+                <li>After the opening of FSO folder in cmd then our actual command implementation will start.&#x2705</li>
+                
+                <h3> STEP 2 (Available Command)</h3>
+                <li>In this FSO tool we have three command. These three command is neccessary for the complition of organzing task in your system. <br> <i>Besides that all three command have a exact/proper format of firing in cmd.</i></li>
+
+                <li>These three command are as following : 
+                <ul>
+                    I) Help Command (command format : node FO.js _help_) <br>
+                    II) Organize Command  (command format : node FO.js organize _directory name_) <br>
+                    III) Tree Command  (command format : node FO.js tree _directory name_)
+                </ul>
+                </li>
+               
+                <h3>STEP 3 (Organizing)</h3>
+                <li>The first Help command is necessary to show the option available throughout throughout our program. For using Help command user need to fire a specific command i..e, <strong> node FO.js _help_</strong> </li>
+                <li>Organize command done the job for user to organize the unsorted files in a sorted manner. Then implementation of organize function user needs to fire/write a specific command i.e, <strong>"node FO.js organize _directory path_".</strong></li>
+                <li>Similarly, For implementation of Tree command user needs to fire/write a specific command i.e, <Strong>"node FO.js tree _directory path_"</Strong>. This tree function print the sorted files in a tree structure for the better understandings of storage of files. this will show the placement of files with respect to its folder. </li>
+                </ol>
+
+        </div>
+
+        <div class="youtube">
+            <iframe width="500" height="300" src="https://www.youtube.com/embed/VJCq0Q6TRU4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+    </section>
+
+  <!-- -----------------------Footer----------------------------------------------- -->
+
+  <!-- <section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, iusto minima ex commodi ea officiis mollitia necessitatibus corrupti dicta natus <br> eaque cumque rem eum dignissimos officia omnis cupiditate nobis libero.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made With  <i class="fa fa-heart-o"></i> by Aniket Gajbhiye</p>
+</section>
+ -->
+
+
+
+
+ <footer>
+    <div class="row">
+        <div class="col">
+            <img src="project/logo n.png" class="logo">
+            <ul>
+            <li> File system organizer, founded in 2022 with the vision to bring in "The Great Indian Technology Renaissance". We specialise in organizing the large number of unsorted data in easy manner for the user purpose.</li></ul>
+        </div>
+        <div class="col">
+            <h3>Contact Us <div class="underline"><span></span></div></h3>
+            <ul>
+            <li><a href="mailto:filesystemorganizer@gmail.com" class="email-id">filesystemorganizer@gmail.com</a></li>
+            <h4>+91-7773072668</h4>
+        </ul>
+        </div>
+
+        <div class="col">
+            <h3>Links<div class="underline"><span></span></div></h3>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="howitworks.html">How it works</a></li>
+            <li><a href="Blogging.html">Blog</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+        </div>
+        <div class="col">
+          <h3>Follow Us On<div class="underline"><span></span></div></h3>
+          <!-- <form>
+            <i class="fa fa-envelope-o"></i>
+            <input type="email" placeholder="Enter your email id" required>
+            <button type="submit"><i class="fa fa-arrow-right"></i> </button>
+          </form> -->
+       
+          <div class="social-icon">
+            <a href="https://www.facebook.com/profile.php?id=100089945027915" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="mailto:filesystemorganizer@gmail.com"> <i class="fa fa-envelope"></i></a>
+            <a href="https://www.instagram.com/filesystemorganizer/" target="_blank"> <i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/file-system-organizer-070309265" target="_blank"> <i class="fa fa-linkedin"></i></a>
+           </div>
+       </div>
+    </div>
+    <hr>
+    <p class="copyright">File system Organizer &copy; 2022 - All Right Reserved</p>
+</footer>
+
+
+
+
+
+
+    <!-- javascript for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html>
